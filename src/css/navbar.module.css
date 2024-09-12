@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+:root {
+  --green: #b9ff66;
+  --ungu: #191a23;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 25px;
+}
+p {
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 100px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #fff;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+.logo img {
+  width: 34px;
+}
+.listNav, .ulNav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.listNav ul li {
+  cursor: pointer;
+}
+.butNav {
+  padding: 20px 35px;
+  border: 1px solid var(--ungu);
+  border-radius: 14px;
+}
+.icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 900px) {
+  nav {
+    padding: 6px 30px;
+  }
+  .icon {
+    display: block;
+  }
+  .ulNav {
+    position: absolute;
+    flex-direction: column;
+    background-color: #fff;
+    gap: 30px;
+    top: -230px;
+    right: 0;
+  }
+  .active {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 40px;
+    border: 1px solid black;
+    gap: 30px;
+    top: 50px;
+    right: 0;
+    border-radius: 15px;
+    transition: all .7s ease-in;
+  }
+}

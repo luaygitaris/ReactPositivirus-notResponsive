@@ -1,0 +1,28 @@
+.CTA {
+  margin-top: 100px;
+  padding: 23px 100px;
+}
+.CTACard {
+  display: flex;
+  background-color: #f3f3f3;
+  border-radius: 45px;
+  position: relative;
+  padding: 60px 500px 60px 60px;
+}
+.CTACardText {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.CTACardText a {
+  background-color: black;
+  color: white;
+  padding: 20px 35px;
+  border-radius: 14px;
+  width: fit-content;
+}
+.CTACard img {
+  position: absolute;
+  top: -30px;
+  right: 50px;
+}

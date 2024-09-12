@@ -1,0 +1,57 @@
+.case, .Ow, .team {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 0 100px;
+}
+.caseJdl, .OwJdl {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.caseJdl h2, .OwJdl h2 {
+  background-color: #b9ff66;
+  padding: 0 7px;
+  border-radius: 7px;
+  width: max-content;
+}
+.caseJdl p, .OwJdl p {
+  width: 50%;
+}
+.casegrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  background-color: black;
+  border-radius: 45px;
+  padding: 70px 60px;
+  gap: 60px;
+}
+.cagridcont {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 20px;
+}
+.cagridcont a {
+  display: flex;
+  align-items: end;
+  gap: 5px;
+}
+.cagridcont a p,
+.cagridcont a i {
+  color: var(--green);
+}
+.cagridcont a i {
+  font-size: x-large;
+  rotate: -45deg;
+}
+.cagrid {
+  display: flex;
+  gap: 10px;
+}
+.cagrid span {
+  width: 1px;
+  height: auto;
+  background-color: white;
+}

@@ -1,0 +1,64 @@
+.team {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+}
+.teamJdl {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.teamJdl h2 {
+  background-color: #b9ff66;
+  padding: 0 7px;
+  border-radius: 7px;
+  width: max-content;
+}
+.teamJdl p {
+  width: 50%;
+}
+.container {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  border-radius: 45px;
+  border: 1px solid #191a23;
+  padding: 40px 35px;
+  gap: 28px;
+}
+.name {
+  display: flex;
+  align-items: end;
+  gap: 20px;
+  position: relative;
+}
+.icon {
+  position: absolute;
+  font-size: 25px;
+  color: #b9ff66;
+  background: black;
+  padding: 9px 9px 1px 9px;
+  border-radius: 99px;
+  top: 0;
+  right: 0;
+}
+.containerButton {
+  margin-top: 40px;
+  display: flex;
+  justify-content: end;
+}
+.button {
+  background: black;
+  border-radius: 14px;
+  padding: 20px 70px;
+  cursor: pointer;
+}
+.button a {
+  color: white;
+}

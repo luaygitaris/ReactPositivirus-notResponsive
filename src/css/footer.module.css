@@ -1,0 +1,90 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 100px 0;
+  padding: 55px 60px;
+  background-color: black;
+  border-radius: 45px 45px 0 0;
+  gap: 30px;
+}
+.atas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  color: white;
+}
+.logo img {
+  width: 34px;
+}
+.listNav,
+.listNav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: white;
+}
+.listNav ul li {
+  cursor: pointer;
+}
+.containericon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+.icon {
+  padding-top: 5px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 50px;
+  padding: 7px 7px 0;
+}
+.tengah {
+  display: flex;
+  justify-content: space-between;
+}
+.contact {
+  color: white;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #292a32;
+  padding: 30px;
+  border-radius: 14px;
+}
+form {
+  display: flex;
+}
+.input {
+  width: 280px;
+  height: 60px;
+  border-radius: 14px;
+  border: 1px solid white;
+  padding: 10px;
+  background-color: transparent;
+}
+button {
+  padding: 20px;
+}
+.bawah {
+  display: flex;
+  gap: 30px;
+  color: white;
+}

@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  margin: 70px 0;
+}
+.headContent {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 35px;
+}
+.headContent h1 {
+  font-weight: normal;
+  letter-spacing: 0;
+}
+.butHead {
+  background-color: black;
+  color: white;
+  padding: 20px 35px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 14px;
+  width: fit-content;
+}
+.headImg img {
+  height: 500px;
+  width: 550px;
+}

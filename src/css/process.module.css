@@ -1,0 +1,75 @@
+.Ow{
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 0 100px;
+}
+.OwJdl {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.OwJdl h2 {
+  background-color: #b9ff66;
+  padding: 0 7px;
+  border-radius: 7px;
+  width: max-content;
+}
+.OwJdl p {
+  width: 50%;
+}
+.Owcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.Owcontent {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 30px;
+  background-color: #f3f3f3;
+  border: 1px solid black;
+  border-radius: 45px;
+  padding: 41px 60px;
+}
+.Owcontentjdl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Owcontentjdl div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.Owcontentjdl i {
+  font-size: xx-large;
+}
+.Owcontentisi {
+  display: flex;
+  position: absolute;
+  z-index: -10;
+  flex-direction: column;
+  gap: 30px;
+}
+.Owcontentisi.active {
+  display: flex;
+}
+.icon {
+  font-size: 3rem;
+  cursor: pointer;
+}
+.bx-minus-circle {
+  display: none;
+}
+.show {
+  display: flex;
+}
+.hidden {
+  display: none;
+}
+.owshow {
+  background-color: var(--green);
+}

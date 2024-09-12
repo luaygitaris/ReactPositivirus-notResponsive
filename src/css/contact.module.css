@@ -1,0 +1,78 @@
+.contact {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+}
+.contactJdl {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  width: 60%;
+}
+.contactJdl h2 {
+  background-color: #b9ff66;
+  padding: 0 7px;
+  border-radius: 7px;
+  width: max-content;
+}
+.contactJdl p {
+  width: 50%;
+}
+.form {
+    margin-top: 80px;
+    padding: 60px 100px;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+}
+.container {
+    display: flex;
+    gap: 35px;
+}
+.radio {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.contain {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    border: 1px solid black;
+    border-radius: 14px;
+    height: 59px;
+    margin-top: 5px;
+    padding: 0 30px;
+}
+textarea {
+    height: 200px;
+    border-radius: 14px;
+    margin-top: 5px;
+    padding: 10px 30px;
+}
+button {
+    padding: 20px 170px;
+    background-color: black;
+    border-radius: 14px;
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+}
+form img {
+    position: absolute;
+    top: 0;
+    right: -425px;
+}
