@@ -3,7 +3,7 @@ import Company from "./components/company";
 import Services from "./components/services";
 import Cta from "./components/cta";
 import Case from "./components/case";
-import Process from "./components/process";
+import Process from "./components/Process";
 import Team from "./components/Team";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
